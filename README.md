@@ -27,6 +27,12 @@ An enterprise-grade **Hybrid AI Assistant** that unifies **Unstructured Semantic
 
 ## 🏗️ System Architecture
 
+<p align="center">
+  <img src="agent_graph.png" alt="LangGraph Unified Agent Architecture" width="500" />
+  <br>
+  <em>Compiled LangGraph StateGraph demonstrating conditional intent routing across RAG, Text-to-SQL, and General branches.</em>
+</p>
+
 ```mermaid
 flowchart TD
     User([👤 Client / User]) --> API["⚡ FastAPI Application (/ask/)"]
